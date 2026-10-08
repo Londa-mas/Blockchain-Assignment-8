@@ -23,7 +23,6 @@ This repository implements a lightweight, production-compliant Flask REST API fo
 | `GET` | `/nodes` | Lists all registered peer node URLs (JSON list). | `200 OK` | — |
 | `POST` | `/nodes/register` | Registers new peer node addresses into the local table. | `201 Created` | `400 Bad Request` |
 | `GET` | `/explorer` | Minimal HTML block explorer view. | `200 OK` | — |
-| `GET` | `/explorer.txt` | Plain-text block explorer audit log. | `200 OK` | — |
 
 ---
 
